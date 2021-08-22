@@ -4,7 +4,7 @@ This is a library that provides access to 37AUSTEN's proprietary algorithms.
 
 ```
 
-pip install py-37austen
+pip install tsausten
 
 ```
 ## Full API Documentation 
@@ -28,6 +28,21 @@ The accepted licence types are:
 1. Trial - t 
 2. Single User - s 
 3. Enterprise - e 
+
+## Token Refresh
+
+```
+
+import tsausten as tsa
+
+email = "name@email.com"
+password = "notpassword"
+licence = "e"
+
+client = tsa.Client(email, password, licence)
+client.token_refresh()
+
+```
 
 ## Future Movement Algorithm Example
 

@@ -58,7 +58,7 @@ client.login()
 
 data = {
 
-"Metadata" : { Label" : "Gamestop", "ID" : "Equity", "Timeframe" : "Daily" },
+"Metadata" : { "Label" : "Gamestop", "ID" : "Equity", "Timeframe" : "Daily" },
 
 "P1" : { "Date" : "2020-12-01", "Open" : 17.11, "High" : 17.4, "Low" : 15.76, "Close" : 15.8 },
 
@@ -102,7 +102,7 @@ client.login()
 
 data = {
 
-"Metadata" : { Label" : "Hypothetical Asset", "ID" : "Index", "Timeframe" : "3 Days" },
+"Metadata" : {"Label" : "Hypothetical Asset", "ID" : "Index", "Timeframe" : "3 Days" },
 
 'P1' : { 'Date' : '2020-02-03', 'Open' : 26189.61, 'High' : 26512.58, 'Low' : 26145.59, 'Close' : 26356.98 },
 
@@ -186,7 +186,7 @@ client.login()
 
 data = {
 
-"Metadata" : { Label" : "GBP/EUR", "ID" : "FX", "Timeframe" : "Daily" },
+"Metadata" : {"Label" : "GBP/EUR", "ID" : "FX", "Timeframe" : "Daily" },
 
 "P1" : { "Date" : "2021-02-08", "Open" : 1.1401, "High" : 1.1412, "Low" : 1.1373, "Close" : 1.1401 },
 
@@ -230,7 +230,7 @@ client.login()
 
 data = {
 
-"Metadata" : { Label" : "Example Token", "ID" : "Crypto Token", "Timeframe" : "Daily" },
+"Metadata" : {"Label" : "Example Token", "ID" : "Crypto Token", "Timeframe" : "Daily" },
 
 "P1 " : { "Date " : "2021-07-26 ", "Open " : 1.174122334, "High " : 1.174398184, "Low " : 1.174122334, "Close " : 1.174260259 },
 
